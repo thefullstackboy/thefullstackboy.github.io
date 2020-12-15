@@ -97,7 +97,7 @@ NOTE: This is the custom jQuery file for the template
         var element = $(".element");
         $(function() {
             element.typed({
-                strings: ["PHP Developer.", "Golang Developer.", "Backend Developer", "Entrepreneur.", "Freelancer."],
+                strings: ["Front-End Developer", "Landing Pages", "Admin Panel", "Website", "Wordpress Themes", "Shopify Themes"],
                 typeSpeed: 100,
                 loop: true,
             });
