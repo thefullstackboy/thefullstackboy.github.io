@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Bharat Sewani is my personal resume website.">
+        <meta name="keywords" content="Bharat Sewani, resume, cv, portfolio, personal, Golang developer,PHP developer, Backend Developer ,personal resume, onepage, clean, modern">
+        <meta name="author" content="Bharat Sewani">
+
+        <title>Bharat Sewani</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/png">
+
+        <!--== bootstrap ==-->
+        <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+
+        <!--== font-awesome ==-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+        <!--== animate css ==-->
+        <link href="./assets/css/animate.min.css" rel="stylesheet">
+
+        <!--== style css ==-->
+        <link href="./style.css" rel="stylesheet">
+
+        <!--== responsive css ==-->
+        <link href="./assets/css/responsive.css" rel="stylesheet">
+
+        <!--== theme color css ==-->
+        <link href="./assets/css/theme-color.css" rel="stylesheet">
+
+        <!--== jQuery ==-->
+        <script src="./assets/js/jquery-2.1.4.min.js"></script>
+
+        <style>
+            #blogContainer .single-info > .info-content > h5 {
+                line-height: 1.4;
+            }
+            #blogContainer .single-info > .info-content > p {
+                line-height: 1.2;
+                color: #444444 !important;
+            }
+            #blogContainer .single-info {
+                padding-left: 15px;
+            }
+            #blogContainer .single-info > .info-icon {
+                left: 15px;
+            }
+            #blogContainer .single-info > .info-content {
+                padding-left: 65px;
+            }
+            .nw-blog-link {
+                text-decoration: none !important;
+            }
+            .nw-blog-link:hover > .single-info,
+            .nw-blog-link:focus > .single-info,
+            .nw-blog-link:active > .single-info {
+                background: #ffffff;
+            }
+        </style>
+
+        <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+        <!--======= PRELOADER =======-->
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+
+        <!--==== DEMO COLOR PANEL ===-->
+        <div class="demo_panel_box">
+            <div class="color_panel_box">
+                <div class="spiner_button slide_in_out"><i class="fa fa-cog fa-spin"></i></div>
+                <span class="color_1"></span>
+                <span class="color_2"></span>
+                <span class="color_3"></span>
+                <span class="color_4"></span>
+                <span class="color_5"></span>
+                <span class="color_6"></span>
+            </div>
+        </div>
+        <!--==== DEMO COLOR PANEL ===-->
+
+        <!--===== HEADER AREA =====-->
+        <header class="navbar custom-navbar navbar-fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="logo">
+                           <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <a class="theme-color" href="./index.html">Bharat</a> <!--== logo ==-->
+                        </div>
+                    </div>
+
+                    <div class="col-md-9 col-sm-8 col-xs-12">
+                       <nav class="main-menu">
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav"> <!--== manin menu ==-->
+                                <li><a class="smoth-scroll" href="index.html">Home</a></li>
+                                <li><a class="smoth-scroll" href="index.html#about">About</a></li>
+                                <li><a class="smoth-scroll" href="index.html#services">service</a></li>
+                                <li><a class="smoth-scroll" href="index.html#work">work</a></li>
+                                <li><a class="smoth-scroll" href="index.html#testimonial">testimonial</a></li>
+                                <li><a class="smoth-scroll" href="index.html#contact">contact</a></li>
+                                <li class="active"><a class="smoth-scroll" href="blog.html">blog</a></li>
+                            </ul>
+                        </div>
+                        </nav>
+                    </div>
+                </div> <!--/.row-->
+            </div> <!--/.container-->
+        </header>
+        <!--===== END HEADER AREA ======-->
+
+         <!--===== BREADCROUMB AREA =====-->
+        <div class="breadcroumb-area" style="background-image: url(./assets/img/blog-bg.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Blog posts</h1>
+                        <div class="breadcroumb">
+                            <a href="index.html">Home</a>
+                            >
+                            <span class="current active">Blog</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--===== BLOG POST AREA =====-->
+        <div class="blog-content-area section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+
+                        <div id="blogContainer">
+                            <div class="row">
+
+                              <div class="col-md-6">
+                                  <a class="nw-blog-link" href="https://medium.com/@bharatsewani/how-i-used-ai-to-buy-the-best-cryptocurrencies-for-me-c76b6c046d2b">
+                                      <div class="single-info">
+                                          <div class="info-icon">
+                                              <i class="fa fa-medium"></i>
+                                          </div>
+                                          <div class="info-content">
+                                              <h5>How I used AI to buy the best Cryptocurrencies for me.</h5>
+                                              <p>I am Bharat Sewani an Entrepreneur, Tech Geek, Bug Hunter, a Hustler and Bachelor of information technology and Computer science.</p>
+                                          </div>
+                                      </div>
+                                  </a>
+                              </div>
+
+                              <div class="col-md-6">
+                                  <a class="nw-blog-link" href="https://medium.com/@bharatsewani/how-i-used-ai-to-buy-the-best-cryptocurrencies-for-me-continued-3eeb7e23aa16">
+                                      <div class="single-info">
+                                          <div class="info-icon">
+                                              <i class="fa fa-medium"></i>
+                                          </div>
+                                          <div class="info-content">
+                                              <h5>How I used AI to buy the best Cryptocurrencies for me continued... </h5>
+                                              <p>It is one month since I wrote the first part of this post, I asked you about your opinion if I should make this project open source on Github.</p>
+                                          </div>
+                                      </div>
+                                  </a>
+                              </div>
+
+                              <div class="col-md-6">
+                                  <a class="nw-blog-link" href="https://www.facebook.com/notes/bharat-sewani/this-is-my-first-case-study-about-a-recent-event-whatsapp-downtime/1322848087843520/">
+                                      <div class="single-info">
+                                          <div class="info-icon">
+                                              <i class="fa fa-facebook"></i>
+                                          </div>
+                                          <div class="info-content">
+                                              <h5>This is my first case study about a recent event “Whatsapp Downtime”.</h5>
+                                              <p>It was about 1:45 PM, Whatsapp the worlds most popular messaging app went down.</p>
+                                          </div>
+                                      </div>
+                                  </a>
+                              </div>
+
+                              <div class="col-md-6">
+                                  <a class="nw-blog-link" href="https://www.facebook.com/notes/bharat-sewani/this-is-my-first-case-study-about-a-recent-event-whatsapp-downtime/1322848087843520/">
+                                      <div class="single-info">
+                                          <div class="info-icon">
+                                              <i class="fa fa-facebook"></i>
+                                          </div>
+                                          <div class="info-content">
+                                              <h5>How we made our first big win at @Zirki.ai</h5>
+                                              <p>It was one of the shiny noons of August 2017, and as usual, I was sitting in front of my desktop screen, searching for something interesting to do.</p>
+                                          </div>
+                                      </div>
+                                  </a>
+                              </div>
+
+                              <div class="col-md-6">
+                                  <a class="nw-blog-link" href="https://bugbountypoc.com/idor-vulnerability-in-hackerone/">
+                                      <div class="single-info">
+                                          <div class="info-icon">
+                                              <i class="fa fa-wordpress"></i>
+                                          </div>
+                                          <div class="info-content">
+                                              <h5>IDOR vulnerability in Hackerone</h5>
+                                              <p>Hackerone IDOR vulnerability proof of concept.</p>
+                                          </div>
+                                      </div>
+                                  </a>
+                              </div>
+
+                                <div class="col-md-6">
+                                    <a class="nw-blog-link" href="https://bugbountypoc.com/phone-number-verification-bypass-in-twitter/">
+                                        <div class="single-info">
+                                            <div class="info-icon">
+                                                <i class="fa fa-wordpress"></i>
+                                            </div>
+                                            <div class="info-content">
+                                                <h5>Phone number verification bypass in Twitter</h5>
+                                                <p>Phone number verification bypass twitter vulnerability.</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pagination"> <!-- pagination -->
+                           <ul>
+                               <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                               <li class="active"><a href="#">1</a></li>
+                            <!-- <li><a href="#">2</a></li> -->
+                            <!-- <li><a href="#">3</a></li> -->
+                               <li><a href="#" aria-label="Next">
+                                   <i class="fa fa-angle-right"></i>
+                               </a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="widget search"> <!-- widget single -->
+                            <form class="search-form">
+                                <input type="search" placeholder="Type to search here...">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                        <div class="widget about-me"> <!-- widget single -->
+                            <h3 class="widget-title">about me</h3>
+                            <img src="./assets/img/author.jpg" alt="">
+                            <p>I love to code, Business in Blood, Bug Hunting is Hobby, Sweet, Smart, Dedicated, Passionate and Charming.</p>
+                        </div>
+                        <div class="widget social"> <!-- widget single -->
+                            <h3 class="widget-title">To follow me</h3>
+                            <ul class="social-links"> <!--=== social-links ===-->
+                                <li><a href="https://www.facebook.com/bharat.sewani.12"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/bharatsewani199"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/bharatsewani1993/"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UC9sSp1mXBKGo5iYwLAqR8fQ?view_as=subscriber"><i class="fa fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="widget category"> <!-- widget single -->
+                            <h3 class="widget-title">Categories</h3>
+                            <ul>
+                                <li><a href="#">Technology<span>(0)</span></a></li>
+                                <li><a href="#">Entrepreneurship <span>(0)</span></a></li>
+                                <li><a href="#">Remote Team <span>(0)</span></a></li>
+                                <li><a href="#">Life Experience<span>(0)</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="widget tags"> <!-- widget single -->
+                           <h3 class="widget-title">tags</h3>
+                            <ul>
+                                <li><a href="#">Entrepreneurship</a></li>
+                                <li><a href="#">Tecnology</a></li>
+                                <li><a href="#">Startup</a></li>
+                                <li><a href="#">Golang</a></li>
+                                <li><a href="#">Remote Team</a></li>
+                                <li><a href="#">Remote Work</a></li>
+                                <li><a href="#">Life Experience</a></li>
+                                <li><a href="#">Business</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!--/.row-->
+            </div> <!--/.container-->
+        </div>
+         <!--===== END BLOG POST AREA =====-->
+
+         <!--====== FOOTER AREA ======-->
+        <footer class="footer">
+            <div class="container">
+                <div class="row wow zoomIn" data-wow-delay="0.4s">
+                    <div class="col-md-12 text-center">
+                        <p>&copy;2018 <strong>Bharat Sewani</strong>. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--====== END FOOTER AREA ======-->
+
+
+        <!--== plugins js ==-->
+        <script src="./assets/js/plugins.js"></script>
+
+        <!--== typed js ==-->
+        <script src="./assets/js/typed.js"></script>
+
+        <!--== stellar js ==-->
+        <script src="./assets/js/jquery.stellar.min.js"></script>
+
+        <!--== counterup js ==-->
+        <script src="./assets/js/jquery.counterup.min.js"></script>
+
+        <!--== waypoints js ==-->
+        <script src="./assets/js/jquery.waypoints.min.js"></script>
+
+        <!--== wow js ==-->
+        <script src="./assets/js/wow.min.js"></script>
+
+         <!--== validator js ==-->
+        <script src="./assets/js/validator.min.js"></script>
+
+         <!--== mixitup js ==-->
+        <script src="./assets/js/jquery.mixitup.js"></script>
+
+         <!--== contact js ==-->
+        <script src="./assets/js/contact.js"></script>
+
+         <!--== main js ==-->
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
