@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.margin4 {
+    margin-top: 4%;
+    margin-left: 11.5%;
+    margin-right: 11.5%;
+    margin-bottom: 6%;
+}
+
+.resumename {
+    font-size: 2.75rem;
+    font-weight: 900;
+    letter-spacing: .4rem;
+    color: #54b689;
+    padding: 3rem !important;
+    margin-right: auto !important;
+    margin-left: -6.8%;
+    margin-top: -3.2%;
+
+
+
+}
+
+.jobpost {
+    font-size: 16px;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #4F4F4F;
+    margin-left: 3%;
+    margin-top: -10.6%;
+   
+    
+}
+
+.fa-map-marker, .fa-phone-square, .fa-envelope-square, .fa-globe  {
+    color:#4f4f4f;
+    font-size: 1rem;
+    background-color:transparent;
+    rotate: 360deg;
+    padding-left: 4%;
+
+
+}
+
+.tagalign {
+    padding-top: 1.5%;
+    padding-left: 1%;
+    margin-right: 4.8%;
+    
+}
+
+.tagalign a {
+    color: #4f4f4f;
+    font-size: 12px;
+}
+
+.resume-profile-image {
+    max-width: 136px;
+
+}
+
+.imagealign {
+padding-left: 1.6%;
+padding-top: 0.40%;
+
+}
+
+.resume-intro p {
+    font-size: .875rem;
+    color: #4f4f4f;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-top: 0.70%;
+}
+
+.borderwidth {
+    width: 98%;
+}
+
+.resumeheading::before {
+    content: " ";
+    display: inline-block;
+    width: 5px;
+    height: 60%;
+    background-color: #54b689;
+    position: absolute;
+    left: 0;
+    margin-top: -0.2%;
+    
+}
+
+.resumeheading {
+    position: relative;
+    padding-left: 1rem;
+    font-size: 1.125rem;
+    letter-spacing: .15rem;
+    color: #54b689;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 0;
+    padding-top: 1.8%;
+    
+}
+
+.resumeheading5 {
+margin-left: 1.6%;
+}
+
+.softwaredevheadin {
+    font-size: 1rem;
+    color: #292929;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.softwaredevheadinp {
+font-weight: 400;
+line-height: 1.5;
+text-align: left;
+font-size: .875rem;
+color: #4f4f4f;
+}
+
+.workexpparg {
+    padding-left: 1.6%;
+    padding-top: 1.7%;
+}
+
+.msccomputer {
+    font-weight: 700 !important;
+    font-size: .875rem;
+    color:#4f4f4f;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.sidetagalign {
+    margin-top: -138.6%;
+    margin-right: 3.2%;
+}
+
+@media (min-width: 800px) and (max-width: 1350px) {
+  
+    /* CSS */
+    .sidetagalign {
+        margin-top: 10%;
+        float: left;
+        text-align: left;
+    }
+}  
