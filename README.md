@@ -1,4 +1,4 @@
-# Bharat Sewani resume and portfolio website.
+# Deepak Sewani resume and portfolio website.
 
 I took the [Alex Theme](http://mhbthemes.com/demos/alex/alex/index.html) to build this website and modified its content.
 
