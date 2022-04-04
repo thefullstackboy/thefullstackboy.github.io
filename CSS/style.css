@@ -1,13 +1,7 @@
-
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-
-body {
- 
-   
 }
 
 .allpagemargin {
@@ -49,8 +43,8 @@ header {
     color: black;
     float: left;       
     font-size: 14px;
-    line-height: 20px;
-    padding-left: 17%;
+    line-height: 28px;
+    padding-left: 16%;
 }
 .myimage img { 
     border-radius: 50%;
@@ -63,7 +57,7 @@ header {
 
 
 .socialmedia ul {
-    padding-left: 15%;
+    padding-left: 4%;
     padding-top: 9%;
 }
 
@@ -91,7 +85,7 @@ header {
 
 .leftrightmargin {
     display: inline-block;
-    margin-left: 7%;
+    margin-left: 4%;
     margin-top: 2%;
 }
 
@@ -148,7 +142,7 @@ ul {
     font-weight: bold;
     display: inline-block; 
     width: 1em;
-    margin-left: -1em;
+    margin-left: 0em;
   }
 
   .honorlink {
@@ -159,13 +153,12 @@ ul {
 
   .boltcolor {
       color: #007BFF;
-      line-height: 16px;
+      line-height: 24px;
       margin-top: -4px;
   }
 
   .boltcolorpar {
       color: #212529;
-     
   }
 
   .linkhttps {
@@ -184,31 +177,16 @@ ul {
 
   }
 
-  .lastupdate {
-    margin-right: 11%;
-    float: right;
-  }
+ 
 
-  .alldate {
-    float: right;
-    margin-top: 10%;
-    margin-right: -13%;
-  }
 
   @media (min-width: 1281px) {
   
     /* CSS */
 
-    .lastupdate {
-        margin-right: 11%;
-        float: right;
-      }
+  
     
-      .alldate {
-        float: right;
-        margin-top: 10%;
-        margin-right: -6%;
-      }
+      
 
   }
   
@@ -222,16 +200,8 @@ ul {
   
     /* CSS */
 
-    .lastupdate {
-        margin-right: 11%;
-        float: right;
-      }
-    
-      .alldate {
-        float: right;
-        margin-top: 10%;
-        margin-right: 5%;
-      }
+  
+     
     
   }
 
@@ -244,16 +214,8 @@ ul {
 @media (min-width: 768px) and (max-width: 1024px) {
   
     /* CSS */
-    .lastupdate {
-        margin-right: 11%;
-        float: right;
-      }
-    
-      .alldate {
-        float: right;
-        margin-top: 10%;
-        margin-right: 8%;
-      }          
+   
+             
     
   } 
   
@@ -266,17 +228,8 @@ ul {
   
     /* CSS */
 
-    .lastupdate {
-        margin-right: 11%;
-        float: right;
-      }
+  
     
-      .alldate {
-        float: right;
-        margin-top: 10%;
-        margin-right: 6%;
-      }       
-
     
   }
   
@@ -290,17 +243,8 @@ ul {
   
     /* CSS */
 
-    .lastupdate {
-        margin-right: 11%;
-        float: right;
-      }
-    
-      .alldate {
-        float: right;
-        margin-top: 10%;
-        margin-right: 3%;
-      }       
 
+     
       .socialmedia ul {
         padding-left: 5%;
         padding-top: 9%;
@@ -310,6 +254,23 @@ ul {
     .socialmedia li {
         line-height: 22px;
     }
+
+    ul li::before {
+        content: "\2022";
+        color: transparent;
+        font-weight: bold;
+        display: inline-block;
+        width: 0em;
+        margin-left: 0em;
+    }    
+
+.myimage img {
+    border-radius: 50%;
+    border: 6px solid rgb(0, 123, 255);
+    align-items: center;
+    margin-left: 13.7%;
+    margin-top: 12%;
+}
 
     
   }
