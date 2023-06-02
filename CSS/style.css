@@ -42,9 +42,10 @@ header {
 .introduction p {
     color: black;
     float: left;       
-    font-size: 14px;
+    font-size: 16px;
     line-height: 28px;
     padding-left: 16%;
+    font-style: italic;
 }
 .myimage img { 
     border-radius: 50%;
@@ -95,7 +96,7 @@ header {
 } 
 
 .skillbutton {
-    background-color: #4F90CD;
+    background-color: #0080ff;
     padding: 8px 12px;
     border: none;
     margin:6px;
